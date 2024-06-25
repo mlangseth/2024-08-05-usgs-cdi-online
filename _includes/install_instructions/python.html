@@ -37,7 +37,6 @@ https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatib
       <li role="presentation"><a data-os="macos" href="#python-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
       <li role="presentation"><a data-os="linux" href="#python-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
-
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="python-windows">
         <ol>
@@ -46,6 +45,17 @@ https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatib
           <img src="fig/SoftwareCenter-Applications.png" alt="Screenshot of Software Center Applications" width="500" height="333">
           <li>Click the green `Install` button</li>
           <img src="fig/SoftwareCenter-Miniforge.png" alt="Screenshot of Software Center Miniforge Install Button" width="500" height="333">
+        </ol>
+        <h4>Python Package Installation</h4>
+        <ol>
+          <li>Search for `Miniforge` in the Windows search and click on `Miniforge Prompt`</li>
+          <li>Enter the following into the Miniforge Prompt:
+            <ol>
+              <li><pre><code>conda install pandas matplotlib jupyter</code></pre></li>
+              <li>Miniforge will collect package metadata, solve the environment, and display packages to be downloaded and installed</li>
+              <li>Miniforge will ask if it is okay to proceed. Enter <pre><code>y</code></pre> to continue your installation</li>
+            </ol>
+            </li>
         </ol>
       </article>
       <article role="tabpanel" class="tab-pane" id="python-macos">
