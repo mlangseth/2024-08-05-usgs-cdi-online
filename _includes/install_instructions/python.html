@@ -49,13 +49,12 @@ https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatib
         <h4>Python Package Installation</h4>
         <ol>
           <li>Search for `Miniforge` in the Windows search and click on `Miniforge Prompt`</li>
-          <li>Enter the following into the Miniforge Prompt:
+          <li>Enter the following into the Miniforge Prompt:</li>
             <ol>
               <li><pre><code>conda install pandas matplotlib jupyter</code></pre></li>
               <li>Miniforge will collect package metadata, solve the environment, and display packages to be downloaded and installed</li>
               <li>Miniforge will ask if it is okay to proceed. Enter <pre><code>y</code></pre> to continue your installation</li>
             </ol>
-            </li>
         </ol>
       </article>
       <article role="tabpanel" class="tab-pane" id="python-macos">
@@ -63,7 +62,20 @@ https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatib
           <li>Open <a href="https://conda-forge.org/miniforge/">https://conda-forge.org/miniforge/</a> with your web browser.</li>
           <li>Download Miniforge3 for MacOSX</li>
           <li>Install Python 3 by running the Miniforge3 Installer using all of the defaults for installation.</li>
+          <ul>
+            <li>If the Mac user requires admin privilege to install the program, they can try to elevate temporarily by using the "Make Me an Admin" tool in the USGS Self Service Mac app.</li>
+            <li>If that does not work, then a ticket can be sent to Tier 2 to perform the installation.</li>
+          </ul>
         </ol>
+        <h4>Python Package Installation</h4>
+        <ol>
+          <li>Open the Miniforge Prompt</li>
+          <li>Enter the following into the Miniforge Prompt:</li>
+            <ol>
+              <li><pre><code>conda install pandas matplotlib jupyter</code></pre></li>
+              <li>Miniforge will collect package metadata, solve the environment, and display packages to be downloaded and installed</li>
+              <li>Miniforge will ask if it is okay to proceed. Enter <pre><code>y</code></pre> to continue your installation</li>
+            </ol>
       </article>
     </div>
   </div>
